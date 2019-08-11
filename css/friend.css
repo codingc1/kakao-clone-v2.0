@@ -1,0 +1,64 @@
+.friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friend .friend__avatar {
+  width: 50px;
+  border-radius: 38%;
+}
+.friend__column .g-avatar {
+  width: 70px;
+}
+.friend__avatar.m-avatar {
+  width: 60px;
+}
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+.friend__content .friend__name {
+  /*  Going home를 이름과 같으 줄에서 아래로 내림    */
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.friend__content .friend__status,
+.friend__content .friend__bottom-text {
+  opacity: 0.6;
+}
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+.friend__content .friend__status {
+  /* status는 friend.html만 bottom-text는 chat.html적용    */
+  font-size: 12px;
+}
+
+.friend .chat__timestamp {
+  font-size: 12px;
+  opacity: 0.6;
+}
+.friend .friend__now-listening {
+  border: 2px solid #52e084;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.friend__now-listening span {
+  opacity: 0.6;
+}
+.friend__now-listening i {
+  font-size: 12px;
+}
+.friend__add-btn {
+  display: flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
