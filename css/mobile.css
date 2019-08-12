@@ -4,7 +4,8 @@
   height: 100%;
   top: 0;
   left: 0;
-  background-color: #fce006;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,6 +17,16 @@
   line-height: 1.5;
   display: none;
   z-index: 4;
+}
+.BigScreen__text {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: block;
+  color: black;
+  font-weight: 600px;
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 @media screen and (min-width: 550px) {
   .bigScreen {
